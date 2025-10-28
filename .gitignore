@@ -1,0 +1,39 @@
+# Global ignores
+.DS_Store
+Thumbs.db
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Backup files
+*.bak
+*.tmp
+
+# Node dependencies
+node_modules/
+Backend/node_modules/
+Client/node_modules/
+
+# Build output and cache
+dist/
+build/
+.cache/
+.vite/
+Client/.next/
+Client/.nuxt/
+
+# Uploads and public file storage
+Backend/uploads/
+Backend/upload/
+Client/public/uploads/
+Client/public/upload/
+
+# Editor directories and files
+.vscode/
+*.code-workspace
+
+# System files
+*.swp
